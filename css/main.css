@@ -1,0 +1,95 @@
+.topbar{
+	position: absolute;
+	top:0px;
+	left: 0px;
+	right:0px;
+	height: 100px;
+	border-bottom: solid 2px green;
+}
+
+.page{
+	position: absolute;
+	top: 105px;
+	left: 0px;
+	right:0px;
+	bottom:0px;
+	background: #F7F6F6;
+	  overflow: auto;
+}
+
+
+
+
+.titles{
+	width: 90%;
+	margin: 7.5%;
+}
+
+.titles>tbody>tr>td{
+	width: 50%;
+	height: 225px;
+	padding:0px;
+	text-align: center;
+}
+
+.titles>tbody>tr>td>div{
+	width:85%;
+	height:90%%;
+		border: solid;
+	border-radius: 23px;
+	background: white;
+}
+
+.titlesLable{
+  background: #2E75B6;
+  color: white;
+  padding: 12px;
+  font-weight: bolder;
+  font-family: monospace;
+  border-radius: 0px 0px 19px 19px;
+  position: relative;
+  top: 159px;
+  left: 0px;
+  right: 0px;
+}
+
+.iconoComida{
+font-size: 64px;
+  color: #2E75B6;
+}
+
+
+
+.iconoEntrete{
+font-size: 64px;
+  color: #FF5050;
+}
+
+.iconoSalud{
+font-size: 64px;
+  color: #3D9D46;
+}
+
+.iconoMascota{
+font-size: 64px;
+  color: #FFC000;
+}
+
+.iconoTransporte{
+font-size: 64px;
+color:#ED7D31;
+}
+
+.iconoAbast{
+font-size: 64px;
+color:#662583;
+}
+.iconoDeporte{
+font-size: 64px;
+color:#404040;
+}
+
+.iconoHospe{
+font-size: 64px;
+  color: #2E75B6;
+}
