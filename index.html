@@ -12,12 +12,14 @@
 	 <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 	-->
 
-
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/mobile-events.js"></script>
+	
  
 <link href="font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 	 
-	<link rel="stylesheet" href="css/entity.css" id="entityStyle">
+	
 
  
 
@@ -27,6 +29,36 @@
 <div class="topbar">
 <img class='logo' src="img/logo_hand.png"/>
 </div>
+
+<div id="modal">
+</div>
+
+<div id="mainMenu">
+	<div>
+		<img class="userPicture" src="http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50"/>
+	
+	</div>
+	
+	<table class='menuNav'>
+		<tr>
+			<td class='active'>
+				<i class="fa fa-search"></i>
+			</td>
+			<td>
+				<i class="fa fa-gift"></i>
+			</td>
+			<td>
+				<i class="fa fa-cog"></i>
+			</td>
+		</tr>
+	</table>
+	<div class="pageMenu"></div>
+	<div>
+		<i class="fa fa-power-off"></i>Log Out
+	</div>
+</div>
+
+
 <div class="page">
 	<table class="titles">
 		<tbody>
@@ -53,7 +85,7 @@
 				</td>
 				<td>
 					<div>
-						<div class='titlesLable' style='background:#FFC000' >Salud</div>
+						<div class='titlesLable' style='background:#FFC000' >Mascotas</div>
 								<i class='fa fa-fw fa-paw   iconoMascota'></i>
 					</div>
 				</td>
@@ -97,6 +129,6 @@
 
 </div>
 
-
+<script type="text/javascript" src="js/menu.js"></script>
 </body>
 </html>
