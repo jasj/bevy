@@ -15,6 +15,6 @@ document.addEventListener('touchmove', function(e){ e.preventDefault(); }, false
 //		** iScroll ** 
 
 var myScroll = new IScroll('#Categories', {
-    mouseWheel: true,
-    scrollbars: true
+    mouseWheel: false,
+    scrollbars: false
 });
