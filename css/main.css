@@ -142,7 +142,7 @@ position: absolute;
 #mainMenu{
 	position: absolute;
 	top: 0px;
-	right: -80px;
+	right: -80%;
 	bottom: 0px;
 	
 	width:80%;
