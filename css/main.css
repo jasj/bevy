@@ -144,6 +144,12 @@ position: absolute;
 	
 	margin-right: -80%;
 }
+#mainMenu>div>label{
+  font-family: neuropol;
+  line-height: 7;
+  margin-left: 37%;
+  color: white;
+}
 
 #mainMenu>div:nth-child(1){
 	width: 100%;
