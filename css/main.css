@@ -142,14 +142,12 @@ position: absolute;
 #mainMenu{
 	position: absolute;
 	top: 0px;
-	right: 0px;
+	right: -80px;
 	bottom: 0px;
 	
 	width:80%;
 	background: white;
 	z-index: 11;
-	
-	margin-right: -80%;
 }
 #mainMenu>div>label{
   font-family: neuropol;
