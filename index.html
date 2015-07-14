@@ -29,9 +29,9 @@
 <body>
 
 <div class="app">
-	<div class="topbar">
+	<div class="topbar"  id="mainTopbar">
 	LinkPoints
-	<img class='logo' src="img/logo_hand.png"/>
+	<img class='logo' src="img/logoapp.png"/>
 	</div>
 
 	<div id="modal">
@@ -63,6 +63,14 @@
 		</div>
 	</div>
 
+	<div id="category" class="page category">
+	</div>
+	<div class="topbar" id="categoryTopbar" >
+	<span class="fa fa-arrow-left" id="back"></span>
+	<i></i>
+	<span class='logo fa fa-bars'></span>
+	</div>
+	
 
 	<div id="Categories" class="page">
 	<div id="scroller">
@@ -85,8 +93,8 @@
 			<tbody>
 				<tr>
 					<td>
-						<div>
-							<div class='titlesLable'>Comidas</div>
+						<div id='comida'>
+							<div class='titlesLable'  style='background :#2E75B6'>Comidas</div>
 							<i class='fa fa-fw fa-cutlery iconoComida'></i>
 						</div>
 					</td>
@@ -150,8 +158,9 @@
 
 	</div>
 	</div>
-
+	<script type="text/javascript" src="js/transitions.js"></script>
 	<script type="text/javascript" src="js/menu.js"></script>
+
 </div>
 </body>
 </html>
