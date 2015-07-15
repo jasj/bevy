@@ -8,11 +8,17 @@ body{
 }
 #categoryTopbar{
 visibility:hidden;
+  
+  border-bottom: solid 0px #777777;
 }
 #categoryTopbar>i{
-font-size:20px;
-color:white;
-margin-left: 75px;
+  font-size: 24px;
+  color: white;
+  position: absolute;
+  left: 48px;
+  right: 80px;
+  text-align: center;
+  line-height: 107px;
 }
 #categoryTopbar>span
 {
@@ -42,9 +48,9 @@ margin-left: 75px;
   left: 0px;
   right: 0px;
   height: 100px;
-  border-bottom: solid 2px #336533;
+  border-bottom: solid 2px #45BD6C;
   font-family: neuropol;
-  color: #1D9F43;
+  color: #45BD6C;
   font-size: 45px;
   line-height: 94px;
   padding-left: 15px;
@@ -54,7 +60,7 @@ margin-left: 75px;
 
 .page{
 	position: absolute;
-	top: 105px;
+	top: 101px;
 	left: 0px;
 	right:0px;
 	bottom:0px;
@@ -84,25 +90,24 @@ margin-left: 75px;
 }
 
 .titles>tbody>tr>td>div{
-	width:85%;
-	height:90%%;
-		border: 2px solid #dfdfdf;
-	border-radius: 23px;
-	background: white;
+	  width: 85%;
+  height: 184px;
+  border: 2px solid #dfdfdf;
+  border-radius: 23px;
+  background: white;
 }
 
 .titlesLable {
- 
-  color: white;
-  padding: 12px;
+   color: white;
+  padding: 14px;
   font-weight: bolder;
   font-family: neuropol;
-  font-size: 10px;
+  font-size: 16px;
   border-radius: 0px 0px 19px 19px;
   position: relative;
-  top: 163px;
-  left: -0.3px;
-  right: -56px;
+  top: 143px;
+  left: -0.9px;
+ margin-right: -2px;
 }
 
 .iconoComida{
@@ -285,10 +290,32 @@ position: absolute;
 	 color: #336533;
 }
 
+.logoMenutxt{
+	position: absolute;
+	right:10px;
+	top: 6px;
+	font-size: 60px !important;
+	color: white;
+	margin: 0px !important;
+	
+	
+}
+
+.lp-logo::before{
+	font-family: linkPointsFont;
+	content: "1";	
+}
+
 
 @font-face {
     font-family: "neuropol";
     src: url("font-awesome-4.3.0/fonts/Antipasto.ttf") format("opentype");   
+
+    }
+
+@font-face {
+    font-family: "linkPointsFont";
+    src: url("font-awesome-4.3.0/fonts/font3933.ttf") format("opentype");   
 
     }
 
