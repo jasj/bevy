@@ -1,4 +1,14 @@
 
+//		** iScroll ** 
+
+var myScroll = new IScroll('#wrapper', {
+	probeType: 3,
+    mouseWheel: false,
+    scrollbars: false,
+
+});
+
+
 menuOpen = function(){
 	$("#mainMenu").animate({"right" : "0px"});
 	$('#modal').fadeIn();
@@ -15,10 +25,5 @@ $("#modal").tapend(function(){
 document.addEventListener('touchmove', function(e){ e.preventDefault(); }, false);
 
 
-//		** iScroll ** 
 
-var myScroll = new IScroll('#Categories', {
-    mouseWheel: false,
-    scrollbars: false,
 
-});
