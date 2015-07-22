@@ -2,9 +2,10 @@
 //		** iScroll ** 
 
 var myScroll = new IScroll('#wrapper', {
-	probeType: 3,
-    mouseWheel: false,
-    scrollbars: false,
+
+ probeType: 1, 
+		   mouseWheel: false	,
+		   
 
 });
 
@@ -24,6 +25,7 @@ $("#modal").tapend(function(){
 
 document.addEventListener('touchmove', function(e){ e.preventDefault(); }, false);
 
-
-
-
+/* 
+#42BB6C
+#2FA952
+ */
