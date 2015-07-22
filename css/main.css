@@ -3,6 +3,7 @@ body{
 	-webkit-overflow-scrolling: touch;
 }
 
+.topbar span {text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);}
 #category{
 
 }
@@ -43,6 +44,7 @@ visibility:hidden;
 }
 
 .topbar{
+background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMCIgaGVpZ2h0PSIxMCI+CjxyZWN0IHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIiBmaWxsPSIjM0Q5RDQ2Ij48L3JlY3Q+CiAgIDxjaXJjbGUgY3g9IjMiIGN5PSIzIiByPSIzIiBmaWxsPSJoc2woOTksNDglLDIwJSkiPjwvY2lyY2xlPgo8L3N2Zz4=");
   position: absolute;
   top: 0px;
   left: 0px;
@@ -50,7 +52,7 @@ visibility:hidden;
   height: 100px;
   border-bottom: solid 2px #45BD6C;
   font-family: neuropol;
-  color: #45BD6C;
+  color: white;
   font-size: 45px;
   line-height: 94px;
   padding-left: 15px;
