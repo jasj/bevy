@@ -16,7 +16,7 @@ menuOpen = function(){
 }
 
 
-$(".logo , .logoMenutxt").tapend(menuOpen);
+//$(".logo , .logoMenutxt").tapend(menuOpen);
 
 $("#modal").tapend(function(){
 	$("#mainMenu").animate({"right" : "-"+(window.innerWidth*0.8)+"px"});

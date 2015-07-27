@@ -1,15 +1,39 @@
+#credit{
+position: absolute;
+    font-size: 39px;
+    margin-left: -18px;
+    line-height: 2.5;
+	
+}
+
+#comida{
+background-color:#7DB477;
+    margin-top: 55px;
+}
+
+
+#textoLogro{
+border-radius:0px;
+border:0px;
+    height: 36px;
+font-size: 20px;
+color:green;
+}
+
 body{
 	overflow-x: hidden;
 	-webkit-overflow-scrolling: touch;
 }
-
+.logro{font-size: 16px;}
 .letraTop {
 
 font-weight: bolder;
 }
 #category{
-
+    text-align: center;
 }
+
+
 #categoryTopbar{
 visibility:hidden;
   
@@ -40,10 +64,11 @@ visibility:hidden;
 }
 
 .topbar .logo{
-  width: 69px;
+     width: 86%;
+    margin-top: 22px;
   position: absolute;
   right: 17px;
-  top: 15px;
+ 
 }
 
 .topbar{
@@ -87,16 +112,11 @@ visibility:hidden;
 	margin: 7.5%;
 }
 
-.titles>tbody>tr>td{
-	width: 50%;
-	height: 225px;
-	padding:0px;
-	text-align: center;
-}
+
 
 .titles>tbody>tr>td>div{
 	  width: 85%;
-  height: 184px;
+  height: 100px;
   border: 2px solid #dfdfdf;
   border-radius: 23px;
   background: white;
@@ -258,19 +278,25 @@ position: absolute;
 
 
 .favourites{
-	 border: 2px solid #dfdfdf;
-	   width: 85%;
-		margin: 7%;
-		 border-spacing: 0px;
-		 border-radius:23px;
+
+	  /*  width: 85%; */
+	
+    /* width: 85%; */
+    margin: 7%;
+    border-spacing: 5px;
+    -webkit-border-horizontal-spacing: 5px;
+    -webkit-border-vertical-spacing: 5px;
+    border-radius: 23px
 }
 
 .favourites td{
 	width : 30%;
-	 border: 1px solid #dfdfdf;
+/* 	 border: 1px solid #dfdfdf;
 	 border-top: 0px;
-	 border-bottom: 0px;
+	 border-bottom: 0px; */
 	 margin: 0px;
+	     border: solid;
+    border-radius: 360px;
 	 
 	 height: 80px;
 	 
@@ -280,12 +306,11 @@ position: absolute;
 	  
 }
 
-.favourites td:nth-child(1){
-	 border-left:0px;
+#puntos{
+    font-size: 41px;
+    color: Green;
 }
-
-
-.favourites td:last-child{
+/* .favourites td:last-child{
 	width : 10%;	
 	 border-right:0px;
 	 margin: 0px;
@@ -293,7 +318,7 @@ position: absolute;
 	 height: 80px;
 	 font-size: 1em;
 	 color: #336533;
-}
+} */
 
 .logoMenutxt{
 	position: absolute;
@@ -311,18 +336,15 @@ position: absolute;
 	content: "1";	
 }
 
-
 @font-face {
-    font-family: "neuropol";
-    src: url("font-awesome-4.3.0/fonts/Antipasto.ttf") format("opentype");   
+    font-family: "roboto";
+    src: url("font-awesome-4.3.0/fonts/Roboto-Italic.ttf") format("opentype");   
 
     }
 
 @font-face {
     font-family: "linkPointsFont";
-    src: url("font-awesome-4.3.0/fonts/font3933.ttf") format("opentype");   
+    src: url("font-awesome-4.3.0/fonts/Roboto-Italic.ttf) format("opentype");   
 
     }
-
-
 
