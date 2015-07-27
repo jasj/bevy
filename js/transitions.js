@@ -13,31 +13,13 @@ $('.titles>tbody>tr>td>div').tap(function(){
 
 	});
 
-$('.logo').tap(function(){
-    $('#mainTopbar').show();
-    $('#categoryTopbar').css('visibility','hidden');
-    $('#Categories').css('visibility','visible');
-    $('#Categories').css('visibility','visible');
-});
+$('#back').tap(function(){
 
-$('.productos').tap(function(){
-    $('#mainTopbar').show();
-    $('#categoryTopbar').css('visibility','hidden');
-    
-    
-    $.ajax({
-        type: 'POST',
-        headers: {
-            'X-Parse-Application-Id': "4Jk8CSceDfb4XQyXyZbduEkdu4BD2H4Jt1IIoJy1",
-            'X-Parse-REST-API-Key': "HuKvI1lsOLsdZ2DxeMC3k2QKqncFgldMzr1ruRX6"
-        },
-        url: "https://api.parse.com/1/classes/PRODUCTO"
-
-    }).done(function (data) {
-        alert(data);
-    });
-    
-    
-    
-
+	
+	$('#mainTopbar').show();
+	$('#categoryTopbar').css('visibility','hidden');
+	$('#Categories').css('visibility','visible');
+	$('#Categories').css('visibility','visible');
+	
+	
 });
