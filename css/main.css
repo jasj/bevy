@@ -1,3 +1,67 @@
+
+
+.itemSearch{
+    border: solid 1px;
+    /* border-radius: 16px; */
+    height: 37px !important;
+	    border-color: grey;
+}
+
+#navSearch>ul>li:nth-child(2){
+    border-radius: 13px 13px 0px 0px;
+	    margin-top: 11px;
+}
+
+#navSearch>ul>li:last-child{
+      border-radius: 0px 0px 13px 13px;
+}
+
+.itemSearch>i{
+    margin-left: 14px;
+    margin-top: 7px;
+    font-size: 23px;
+	
+
+}
+
+
+	.itemSearch>a{
+       font-size: 25px;
+    font-family: neuropol;
+    margin-left: 15px;
+	
+	}
+#searchInput{
+text-indent: 8px;
+border: solid 2px;
+        border-color: grey;
+    height: 40px;
+       width: 102%;
+    border-radius: 12px;
+    margin-top: 11px;
+	    font-size: 25px;
+    font-family: neuropol, FontAwesome;
+}
+
+.pageMenu ul{
+list-style-type: none;
+}
+
+
+.pageMenu ul li {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    margin-left: -20px;
+	
+	}
+
+.pageMenu{
+display:block;
+    width: 100%;
+
+}
+
 body{
 	overflow-x: hidden;
 	-webkit-overflow-scrolling: touch;
