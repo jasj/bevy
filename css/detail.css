@@ -1,0 +1,58 @@
+#detailTopbar>span
+{
+  color:gray;
+  margin-right: -55px;
+  margin-top: 24px;
+  font-size: 34px;
+}
+
+.footerDetail{
+
+    position: absolute;
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    bottom: 0px;
+    border: solid 1.5px gray;
+	
+}
+
+.detailContainer, .modalDetail{	
+	position:absolute;
+	top:0px;
+	left: 0px;
+	right:0px;
+	bottom: 61.5px;
+    background-size: 100% auto !important;
+}
+
+.footerDetail>table>tbody>tr>td{
+	font-size:40px;
+	width: 2%;
+	color: gray;
+}
+
+
+.footerDetail>table>tbody>tr>td.active{
+
+	color: yellow;
+}
+
+ .modalDetail{
+	background-color: rgba(50,50,50,0.6);
+ }
+
+ 
+ #qrcode {
+    width: 160px;
+    height: 160px;
+    margin-top: 15px;
+    display: cell;
+    /* margin: auto; */
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
+    top: 50%;
+    margin-top: -125px;
+  
+}

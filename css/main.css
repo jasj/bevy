@@ -31,15 +31,14 @@
     margin-left: 15px;
 	
 	}
-#searchInput{
+.searchInput{
 text-indent: 8px;
-border: solid 2px;
-        border-color: grey;
+border: solid 2px green;
     height: 40px;
        width: 102%;
     border-radius: 12px;
     margin-top: 11px;
-	    font-size: 25px;
+	    font-size: 15px;
     font-family: neuropol, FontAwesome;
 }
 
@@ -75,7 +74,6 @@ font-weight: bolder;
 
 }
 #categoryTopbar{
-visibility:hidden;
   
   border-bottom: solid 0px #777777;
 }
@@ -123,8 +121,13 @@ visibility:hidden;
   font-size: 45px;
   line-height: 94px;
   padding-left: 15px;
+  display:none;
 	  
 	
+}
+.topbar.active{
+	display: block;
+	z-index: 9;
 }
 
 .page{
@@ -137,6 +140,12 @@ visibility:hidden;
 	  overflow: auto;
 	  
 	  text-align: center;
+	  
+	  display: none;
+}
+
+.page.active{
+	display : block !important;
 }
 
 
@@ -330,7 +339,7 @@ position: absolute;
 }
 
 .favourites td{
-	width : 30%;
+	    width: 21.666666666666666666666666666667%;
 	 border: 1px solid #dfdfdf;
 	 border-top: 0px;
 	 border-bottom: 0px;
@@ -345,7 +354,14 @@ position: absolute;
 }
 
 .favourites td:nth-child(1){
-	 border-left:0px;
+    border-left: 0px;
+    width: 10%;
+  
+    margin: 0px;
+    height: 80px;
+    font-size: 1em;
+    color: #336533;
+	
 }
 
 

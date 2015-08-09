@@ -14,12 +14,17 @@
 
 	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 	<script type="text/javascript" src="js/mobile-events.js"></script>
-		<script type="text/javascript" src="js/iscroll-probe.js"></script>
-	
+	<script type="text/javascript" src="js/iscroll-probe.js"></script>
+	<script type="text/javascript" src="js/qrcode.js"></script>
  
 <link href="font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-	  <link rel="stylesheet" href="css/scroller.css">
+	<link rel="stylesheet" href="css/cat.css">
+	<link rel="stylesheet" href="css/detail.css">
+	 <link rel="stylesheet" href="css/scroller.css">
+	 
+	 
+	  <link rel="stylesheet" href="css/bussines.css">
 	
 
  
@@ -29,11 +34,26 @@
 <body>
 
 <div class="app">
-	<div class="topbar"  id="mainTopbar">
-	<span class="letraTop">LinkPoints<span>
-	<img class='logo' src="img/logoapp.png"/>
-	</div>
 
+	<header class="topbar active"  id="mainTopbar">
+		<span class="letraTop">LinkPoints<span>
+		<img class='logo' src="img/logoapp.png"/>
+	</header>
+	
+	<header class="topbar" id="categoryTopbar" >
+		<span class="fa fa-arrow-left back"></span>
+		<i></i>
+		<span class='logoMenutxt lp-logo'></span>
+	</header>
+	
+		<header class="topbar" id="detailTopbar" >
+		<span class="fa fa-arrow-left back"></span>
+		<i></i>
+	
+	</header>
+	
+	
+<!---- Paginas --->
 	<div id="modal">
 	</div>
 
@@ -62,7 +82,7 @@
 			<ul> 
 					<li>
 						<form>
-						<input id="searchInput" type="search"  placeholder="&#xF002; Buscar" style=""/>
+						<input id="searchInput" class="searchInput" type="search"  placeholder="&#xF002; Buscar" style=""/>
 						</form>
 					</li>
 					<li class="itemSearch">
@@ -90,22 +110,17 @@
 		</div>
 	</div>
 
-	<div id="category" class="page category">
-	</div>
-	<div class="topbar" id="categoryTopbar" >
-	<span class="fa fa-arrow-left" id="back"></span>
-		
-		<i></i>
-	<span class='logoMenutxt lp-logo'></span>
-	</div>
-	
 
-	<div id="Categories" class="page">
-	<div id="wrapper">
-	<div id="scroller">
-		<img class="userPicture" src="http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50"/>
+	
+	
+	<div id="Cat" class="page" header="categoryTopbar" fx="showCat">
+	
+	<input type="search" class="catSearch"/> 
 		<table class="favourites">
 			<tr>
+				<td>
+					<i class="fa fa-angle-left"></i>
+				</td>
 				<td>
 					<i class="fa fa-heart"></i>
 				</td>
@@ -114,7 +129,78 @@
 				</td>
 				<td><i class="fa fa-heart"></i></td>
 				<td>
-					<i class="fa fa-plus"></i>
+					<i class="fa fa-angle-right"></i>
+				</td>
+			</tr>
+		</table>
+		
+		
+	  <div class="CAT mono">
+	     dasd
+	  </div>
+	  <div class="CAT bi">
+	     dasd
+	  </div>
+	  <div class="CAT bi">
+	     dasd
+	  </div>
+	    <div class="CAT tri">
+	     dasd
+	  </div>
+	    <div class="CAT tri">
+	     dasd
+	  </div>
+	    <div class="CAT tri">
+	     dasd
+	  </div>
+	  
+	  	    <div class="CAT tri">
+	     dasd
+	  </div>
+	    <div class="CAT tri">
+	     dasd
+	  </div>
+	    <div class="CAT tri">
+	     dasd
+	  </div>
+	
+	
+	  <div class="CAT bi">
+	     dasd
+	  </div>
+	  <div class="CAT bi">
+	     dasd
+	  </div>
+	  
+	   <div class="CAT mono">
+	     dasd
+	  </div>
+	</div>
+	
+	
+	  
+	  
+	
+	
+	
+	<div id="Categories" class="page active" header="mainTopbar">
+	<div id="wrapper">
+	<div id="scroller">
+		<img class="userPicture" src="http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50"/>
+		<table class="favourites">
+			<tr>
+				<td>
+					<i class="fa fa-angle-left"></i>
+				</td>
+				<td>
+					<i class="fa fa-heart"></i>
+				</td>
+				<td>
+					<i class="fa fa-heart"></i>
+				</td>
+				<td><i class="fa fa-heart"></i></td>
+				<td>
+					<i class="fa fa-angle-right"></i>
 				</td>
 			</tr>
 		</table>
@@ -188,8 +274,36 @@
 	</div>
 	</div>	
 	</div>
+	
+	 <div id="Detail" class="page" header="detailTopbar">
+		<div class="detailContainer">
+		
+		
+		</div>
+		<div class='modalDetail'>
+			<div id="qrcode"></div>
+		</div>
+		
+		
+
+		<div class="footerDetail">
+			<table>
+				<tr>
+					<td tabDetail="qrCode"><i class="fa fa-qrcode"></i></td>
+					<td tabDetail="gps"><i class="fa fa-location-arrow"></i></td>
+					<td tabDetail="gift"><i class="fa fa-gift"></i></td>
+					<td tabDetail="history"><i class="fa fa-clock-o"></i></td>
+					<td tabDetail="info"> <i class="fa fa-info-circle"></i></td>
+				</tr>
+			<table>
+		</div>
+	
+	</div>
+	<script type="text/javascript" src="js/generics.js"></script>
 	<script type="text/javascript" src="js/transitions.js"></script>
 	<script type="text/javascript" src="js/menu.js"></script>
+	<script type="text/javascript" src="js/cat.js"></script>
+	<script type="text/javascript" src="js/detail.js"></script>
 	
 	
 

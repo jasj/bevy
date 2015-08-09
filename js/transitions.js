@@ -1,25 +1,26 @@
+var backPages = [];
+function changePage(newPage,parameters){
+	backPages.push($(".page.active").attr("id"));
+	//Change the Page
+	$(".page.active").removeClass('active');
+	$("#"+newPage+".page").addClass('active');
+	//Change Header
+	$("header.active").removeClass('active');
+	$("#"+$("#"+newPage+".page").attr("header")).addClass('active');
+	//Exec Function associated with the page
+	if($("#"+newPage+".page").hasAttr("fx")){
+		eval($("#"+newPage+".page").attr("fx")+"("+JSON.stringify(parameters)+")");
+	}
+}
 
 
-$('.titles>tbody>tr>td>div').tap(function(){
-	$('#Categories').css('visibility','hidden');
-	var color = $(this).children().css('backgroundColor');
-	var icono = $(this).children('i').attr('class').split(" ");
-	icono.pop();
-	$('#mainTopbar').hide();
-	$('#categoryTopbar').css('visibility','visible');
-	$('#categoryTopbar').css('backgroundColor',color);
-	$('#categoryTopbar>i').html("<span class='"+icono.join(" ")+"'></span> "+$(this).children().text());
-
-
-	});
-
-$('#back').tap(function(){
-
-	
-	$('#mainTopbar').show();
-	$('#categoryTopbar').css('visibility','hidden');
-	$('#Categories').css('visibility','visible');
-	$('#Categories').css('visibility','visible');
-	
-	
+$('.back').tap(function(){
+	var backPage = backPages.pop();
+	if(backPage.length > 0){
+		$(".page.active").removeClass('active');
+		$("#"+backPage+".page").addClass('active');
+		
+		$("header.active").removeClass('active');
+		$("#"+$("#"+backPage+".page").attr("header")).addClass('active');
+	}
 });

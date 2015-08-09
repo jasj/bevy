@@ -1,0 +1,81 @@
+.CAT{
+	margin: 2.5%;
+	background: white;
+	height: 150px;
+	float: left;
+	-webkit-box-shadow: -1px 0px 2px 0px #a7a7a7;
+	-moz-box-shadow:    -1px 0px 2px 0px #a7a7a7;
+	box-shadow:         -1px 0px 2px 0px #a7a7a7; 
+}
+.CAT.mono{
+	width:95%;
+}
+
+.CAT.bi{
+	width: 45%;	
+}
+
+.CAT.tri{
+	width: 28.333333%;
+}
+
+ .catSearch{
+	margin: 2.5%;
+
+	text-indent: 8px;
+	border: solid 2px green;
+	height: 40px;
+	width: 95%;
+	border-radius: 12px;
+
+	font-size: 15px;
+	font-family: neuropol, FontAwesome;
+}
+
+.Fav{
+	margin: 2.5%;
+	width: 95%;
+	
+	border: solid 2px green;
+	height:154px;
+	color: #B2FF99;;
+}
+
+#Cat .favourites{
+    border: 2px solid #dfdfdf;
+    width: 95%;
+    margin: 2.5%;
+    border-spacing: 0px;
+    border-radius: 23px;
+}
+
+
+#Cat .favourites td {
+    width: 26.66666%;
+    border: 1px solid #dfdfdf;
+    border-top: 0px;
+    border-bottom: 0px;
+    margin: 0px;
+    height: 80px;
+    font-size: 32px;
+    color: #C1C0C0;
+}
+
+#Cat .favourites td:nth-child(1) {
+       width: 10%;
+
+    margin: 0px;
+    height: 80px;
+    font-size: 1em;
+    color: #336533;
+	    border-left: 0px;
+}
+
+#Cat .favourites td:last-child {
+    width: 10%;
+    border-right: 0px;
+    margin: 0px;
+    height: 80px;
+    font-size: 1em;
+    color: #336533;
+}
