@@ -39,34 +39,7 @@ menuOpen = function(){
 
 $(".logo , .logoMenutxt").tapend(menuOpen);
 
-$("#rewardsOption").tap(function(){
-	
-		$("#settingsOption").removeClass('active');
-	$("#rewardsOption").addClass('active');
-	$("#searchOption").removeClass('active');
-		$("#navSearch").hide();
-		$("#navRewards").show();
-			$("#navSettings").hide();
-	});
 
-	$("#searchOption").tap(function(){
-	$("#settingsOption").removeClass('active');
-	$("#rewardsOption").removeClass('active');
-	$("#searchOption").addClass('active');
-		$("#navSearch").show();
-		$("#navRewards").hide();
-		$("#navSettings").hide();
-		
-	});
-	
-$("#settingsOption").tap(function(){
-	$("#settingsOption").addClass('active');
-	$("#rewardsOption").removeClass('active');
-	$("#searchOption").removeClass('active');
-		$("#navSettings").show();
-		$("#navRewards").hide();
-		$("#navSearch").hide();
-	});
 
 $("#modal").tapend(function(){
 	$("#mainMenu").animate({"right" : "-"+(window.innerWidth*0.8)+"px"});
