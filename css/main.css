@@ -410,6 +410,7 @@ position: absolute;
 
 .putimg , #categoryTopbar{
 		background-size:cover;
+		background-position: center; 
 }
 
 
