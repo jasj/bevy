@@ -1,0 +1,30 @@
+.verticalUnion{
+	width: 0px; 
+	height:50px;
+	border: 2px solid lightgray;
+	margin-left:50%;
+}
+.verticalUnion:nth-child(1){
+	border: 2px solid clear;
+}
+.dotUnion{
+	width: 0px; 
+	height:0px;
+	border: 20px solid #2E75B6;
+	margin-left: 47%;
+	margin-left:calc(50% - 18px);
+	border-radius: 360px;
+	margin-top:-2px;
+}
+
+.imgGroupEvent{
+	border: 4px dashed lightgray;
+    height: 180px;
+    width: 90%;
+    margin-left: 4%;
+    border-radius: 30px 0px;
+	background-position: center;
+	background-size: cover;
+	
+	background-image: url(http://www.supremas.com.br/wp-content/uploads/2012/09/friends-sao-paulo-amigos-grupinho-pessoas-conhecer-morar-mudar-novo-na-cidade.jpg);
+}

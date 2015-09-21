@@ -10,7 +10,7 @@
 } */
 
 
-#wrapper {
+#wrapper,#wrapperGroup {
 	position: absolute;
 	z-index: 1;
 	top: 0px;
@@ -20,7 +20,7 @@
 	overflow: hidden;
 }
 
-#scroller {
+#scroller, #scrollerGroup {
 	position: absolute;
 	z-index: 1;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
