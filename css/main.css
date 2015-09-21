@@ -262,7 +262,7 @@ position: absolute;
 #mainMenu>div:nth-child(1){
 	width: 100%;
 	height: 100px;
-	background-color: rebeccapurple;
+	background-color: #663399;
 	
 }
 
@@ -405,18 +405,13 @@ position: absolute;
     }
 	
 #mainTopbar .lp-logo{
-	color: rebeccapurple;
+	color: #663399 !important;
 }
 
-.imageGang{
-	background-color: gray;
-	background-image: url(http://i.huffpost.com/gen/2409680/images/n-GROUP-HUG-large570.jpg);
-	background-size:cover;
-	height:145px;
-	width:100%;
-	margin-top: -53px;
-	border-radius: 23px 23px 0px 0px;
+.putimg{
+		background-size:cover;
 }
+
 
 
 .titlesLable table{
