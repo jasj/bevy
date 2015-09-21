@@ -27,7 +27,7 @@
 
 	.itemSearch>a{
        font-size: 25px;
-    font-family: neuropol;
+    font-family: Dance fever;
     margin-left: 15px;
 	
 	}
@@ -39,7 +39,7 @@ border: solid 2px green;
     border-radius: 12px;
     margin-top: 11px;
 	    font-size: 15px;
-    font-family: neuropol, FontAwesome;
+    font-family: Dance fever, FontAwesome;
 }
 
 .pageMenu ul{
@@ -115,9 +115,9 @@ font-weight: bolder;
   left: 0px;
   right: 0px;
   height: 100px;
-  border-bottom: solid 2px #45BD6C;
-  font-family: neuropol;
-  color: #219B41;
+  border-bottom: solid 2px #7030A0;
+  font-family: Dance fever;
+  color: #7030A0;
   font-size: 45px;
   line-height: 94px;
   padding-left: 15px;
@@ -168,7 +168,7 @@ font-weight: bolder;
 }
 
 .titles>tbody>tr>td>div{
-	  width: 85%;
+	  width: 95%;
   height: 184px;
   border: 2px solid #dfdfdf;
   border-radius: 23px;
@@ -179,7 +179,7 @@ font-weight: bolder;
    color: white;
   padding: 14px;
   font-weight: bolder;
-  font-family: neuropol;
+  font-family: Dance fever;
   font-size: 16px;
   border-radius: 0px 0px 19px 19px;
   position: relative;
@@ -253,7 +253,7 @@ position: absolute;
 	z-index: 11;
 }
 #mainMenu>div>label{
-  font-family: neuropol;
+  font-family: Dance fever;
   line-height: 7;
   margin-left: 37%;
   color: white;
@@ -262,7 +262,7 @@ position: absolute;
 #mainMenu>div:nth-child(1){
 	width: 100%;
 	height: 100px;
-	background-color: #6EBD61;
+	background-color: rebeccapurple;
 	
 }
 
@@ -387,22 +387,53 @@ position: absolute;
 }
 
 .lp-logo::before{
-	font-family: linkPointsFont;
-	content: "1";	
+	font-family: bevy;
+	content: "a";	
 }
 
 
 @font-face {
-    font-family: "neuropol";
-    src: url("font-awesome-4.3.0/fonts/Antipasto.ttf") format("opentype");   
+    font-family: "Dance fever";
+    src: url("font-awesome-4.3.0/fonts/df.ttf") format("opentype");   
 
     }
 
 @font-face {
-    font-family: "linkPointsFont";
+    font-family: "bevy";
     src: url("font-awesome-4.3.0/fonts/font3933.ttf") format("opentype");   
 
     }
+	
+#mainTopbar .lp-logo{
+	color: rebeccapurple;
+}
+
+.imageGang{
+	background-color: gray;
+	background-image: url(http://i.huffpost.com/gen/2409680/images/n-GROUP-HUG-large570.jpg);
+	background-size:cover;
+	height:145px;
+	width:100%;
+	margin-top: -53px;
+	border-radius: 23px 23px 0px 0px;
+}
 
 
+.titlesLable table{
+	width: 100%;
+}
+
+.titlesLable table td:eq(0){
+	text-align: left;
+}
+
+.titlesLable table td:eq(1){
+	width: 30px;
+	text-align: right;
+	color: yellow;
+}
+
+.pointsGang{
+	color: lightgray;
+}
 
