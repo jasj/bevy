@@ -12,12 +12,13 @@ $(".putimg").tapend(function(ev){
 			"border-color" : color
 		})
 		
-		$(".gname").html($(this).find(".titlesLable td:eq(0)").html()).css("color",color)
+		$(".gname").html($(this).find(".titlesLable td:eq(0)").html()).css("color",color);
+		
+		var myScrollGroup = new IScroll('#wrapperGroup', {
+			probeType: 1, 
+			mouseWheel: false	,
+		});
 	}
 });
 
 
-var myScrollGroup = new IScroll('#wrapperGroup', {
-	probeType: 1, 
-	mouseWheel: false	,
-});
