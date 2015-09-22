@@ -28,3 +28,23 @@
 	
 	background-image: url(http://www.supremas.com.br/wp-content/uploads/2012/09/friends-sao-paulo-amigos-grupinho-pessoas-conhecer-morar-mudar-novo-na-cidade.jpg);
 }
+
+.PuP{
+	margin-top: -55px;
+}
+
+.small{
+    margin-top: -16px;
+    font-size: 23px;
+}
+
+.infoShowTL{
+	width: 100%;
+	position: relative; 
+	top: -50px;
+}
+
+.infoShowTL td{
+	font-size: 32px; 
+	width: 50%;
+}

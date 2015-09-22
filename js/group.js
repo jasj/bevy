@@ -10,7 +10,11 @@ $(".putimg").tapend(function(ev){
 		
 		$(".dotUnion").css({
 			"border-color" : color
-		})
+		});
+		
+		$(".infoShowTL").css({
+			"color" : color
+		});
 		
 		$(".gname").html($(this).find(".titlesLable td:eq(0)").html()).css("color",color);
 		
