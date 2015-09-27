@@ -6,8 +6,3 @@ var fbLoginSuccess = function (userData) {
         alert("Could not get access token: " + err);
     });
 }
-
-facebookConnectPlugin.login(["public_profile"],
-    fbLoginSuccess,
-    function (error) { alert("" + error) }
-);
