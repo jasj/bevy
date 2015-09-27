@@ -1,5 +1,14 @@
 
 function onDeviceReady(){
+	var fbLoginSuccess = function (userData) {
+    alert("UserInfo: " + JSON.stringify(userData));
+    facebookConnectPlugin.getAccessToken(function(token) {
+        alert("Token: " + token);
+    }, function(err) {
+        alert("Could not get access token: " + err);
+    });
+}
+
 	try{
 		/*
 			onDeviceReady_fm();
@@ -16,6 +25,7 @@ function onDeviceReady(){
 		
 		
 	}catch(e){
+		alert(e);
 	}
 /*	setTimeout(function(){ $(".wConteiner div p").show();},3000);
 	checkPreviusLogin();
@@ -23,7 +33,6 @@ function onDeviceReady(){
 }
 
 
-alert("fumba");
 if (navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry|IEMobile)/)) {
   document.addEventListener("deviceready", onDeviceReady, false);
 } else {
