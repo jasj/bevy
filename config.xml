@@ -11,6 +11,7 @@
 	
 	
     <preference name="permissions" value="none" />
+    <preference name="phonegap-version" value="3.7.0" />
     <preference name="orientation" value="portrait" />
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="true" />
@@ -26,7 +27,7 @@
 	<preference name="EnableViewportScale" value="true" />
 
 
- <gap:plugin name="com.phonegap.plugins.facebookconnect" >
+ <gap:plugin name="com.phonegap.plugins.facebookconnect">
         <param name="APP_ID" value="804125556362854" />
         <param name="APP_NAME" value="bevyapp" />
     </gap:plugin>
