@@ -27,7 +27,7 @@
 	<preference name="EnableViewportScale" value="true" />
 
 
- <gap:plugin name="com.phonegap.plugins.facebookconnect" version="<VERSION>">
+ <gap:plugin name="com.phonegap.plugins.facebookconnect" version="v2.4">
         <param name="APP_ID" value="804125556362854" />
         <param name="APP_NAME" value="bevyapp" />
     </gap:plugin>
