@@ -1,13 +1,7 @@
 
 function onDeviceReady(){
-	var fbLoginSuccess = function (userData) {
-    alert("UserInfo: " + JSON.stringify(userData));
-    facebookConnectPlugin.getAccessToken(function(token) {
-        alert("Token: " + token);
-    }, function(err) {
-        alert("Could not get access token: " + err);
-    });
-}
+	
+
 
 	try{
 		/*
@@ -16,7 +10,17 @@ function onDeviceReady(){
 			document.addEventListener("backbutton", backKeyDown, true);
 			document.addEventListener("menubutton", menuKeyDown, true);
 		*/
+		
 		alert("fumba");
+		var fbLoginSuccess = function (userData) {
+			alert("UserInfo: " + JSON.stringify(userData));
+			facebookConnectPlugin.getAccessToken(function(token) {
+				alert("Token: " + token);
+			}, function(err) {
+				alert("Could not get access token: " + err);
+			});
+		}
+	
 		
 		facebookConnectPlugin.login(["public_profile"],
 			fbLoginSuccess,
