@@ -9,7 +9,7 @@ function onDeviceReady(){
 			onDeviceReady_pn();
 			document.addEventListener("backbutton", backKeyDown, true);
 			document.addEventListener("menubutton", menuKeyDown, true);
-
+		*/
 		var fbLoginSuccess = function (userData) {
 			alert("UserInfo: " + JSON.stringify(userData));
 			facebookConnectPlugin.getAccessToken(function(token) {
@@ -25,9 +25,9 @@ function onDeviceReady(){
 			function (error) { alert("" + error) }
 		);
 		
-				*/
+		
 	}catch(e){
-		console.log(e);
+		alert(e);
 	}
 /*	setTimeout(function(){ $(".wConteiner div p").show();},3000);
 	checkPreviusLogin();
