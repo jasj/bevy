@@ -25,4 +25,6 @@ $(".putimg").tapend(function(ev){
 	}
 });
 
+console.log("andres");
+
 
