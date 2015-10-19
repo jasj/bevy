@@ -4,8 +4,8 @@ function onDeviceReady(){
 
 
 	try{
-		/*
-			onDeviceReady_fm();
+		
+		/*	onDeviceReady_fm();
 			onDeviceReady_pn();
 			document.addEventListener("backbutton", backKeyDown, true);
 			document.addEventListener("menubutton", menuKeyDown, true);
@@ -18,9 +18,10 @@ function onDeviceReady(){
 				alert("Could not get access token: " + err);
 			});
 		}
-	
 		
-		facebookConnectPlugin.login(["public_profile"],
+		
+		facebookConnectPlugin.browserInit();
+		facebookConnectPlugin.login(["email"],
 			fbLoginSuccess,
 			function (error) { alert("" + error) }
 		);
