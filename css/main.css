@@ -440,3 +440,13 @@ position: absolute;
 	margin-top: 10px;
 }
 
+
+#fb-root{
+	display : block;
+	background-color: red;
+	z-index: 500000px;
+	position: 0px;
+	bottom: 0px;
+	left: 0px;
+	right:0px;
+}
