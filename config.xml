@@ -30,6 +30,7 @@
         <param name="APP_ID" value="804125556362854" />
         <param name="APP_NAME" value="bevyapp" />
     </gap:plugin>
+  <plugin name="org.wbt11a.canvas2imageplugin" spec="0.7.1" source="pgb" />
 	
 
     <icon src="icon.png" />
