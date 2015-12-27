@@ -13,6 +13,15 @@ function changePage(newPage,parameters){
 	}
 }
 
+$(document).on("tapend","[page]",function(ev){
+	if(checkPress(ev)){
+		if($(this).hasAttr('fx')){
+			eval(fx);
+		}
+		changePage($(this).attr("page"));
+		$("#modal").trigger("tapend");
+	}
+});
 
 $('.back').tap(function(){
 	var backPage = backPages.pop();

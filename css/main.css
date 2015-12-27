@@ -49,11 +49,21 @@ list-style-type: none;
 
 .pageMenu ul li {
     width: 100%;
-    height: 60px;
+    height: 55px;
     position: relative;
     margin-left: -20px;
+	font-size: 25px;
+	font-family: Dancefever, FontAwesome;
+	color: hsl(270, 50%, 80%);
 	
 	}
+.pageMenu ul li:hover{
+	color:hsl(270, 50%, 80%);
+}
+	
+.pageMenu ul li .fa{
+	margin-right: 12px;
+}
 
 .pageMenu{
 display:block;
@@ -292,11 +302,11 @@ position: absolute;
 
 .menuNav td{
 	padding: 5px;
-	color: #DFEDD6;
+	color: hsl(270, 50%, 80%);
 }
 
 .menuNav td.active{
-	color: #629C44;
+	color: hsl(270, 50%, 40%);
 }
 
 .menuNav .fa-cog{
@@ -312,7 +322,7 @@ position: absolute;
 }
 
 #mainMenu .userPicture{
-  border: 2px solid #336533;
+  border: 2px solid hsl(270, 50%, 40%);
   border-radius: 360px;
   height: 64px;
   width: 64px;
