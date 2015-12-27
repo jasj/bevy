@@ -1,5 +1,4 @@
 $(".putimg").tapend(function(ev){
-	alert(ev);
 	if(checkPress(ev)){
 		var color = $(this).find(".titlesLable").css("backgroundColor");
 		changePage("groupPage");
