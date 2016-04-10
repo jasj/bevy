@@ -8,3 +8,4 @@ var fbLoginSuccess = function (userData) {
 }
 
 facebookConnectPlugin.browserInit(1522117891429463);
+facebookConnectPlugin.login([], fbLoginSuccess, function(){alert("samp")})
