@@ -6,3 +6,5 @@ var fbLoginSuccess = function (userData) {
         alert("Could not get access token: " + err);
     });
 }
+
+facebookConnectPlugin.browserInit(1522117891429463);

@@ -1,11 +1,11 @@
 <?xml version='1.8' encoding='utf-8'?>
 <widget id="com.bevyteam.bevy" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-	<name>Bevy</name>
+	<name>Broup</name>
     <description>
        Bring reality to your social network
     </description>
     <author email="asegreda@linkpoints.club" href="http://linkpoints.club">
-        bevy Team
+        Broup Team
     </author>
 	
 	
