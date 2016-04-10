@@ -19,9 +19,9 @@ function onDeviceReady(){
 			});
 		}
 		
-		
-		facebookConnectPlugin.browserInit();
-		facebookConnectPlugin.login(["email"],
+		 alert("q");
+	
+		facebookConnectPlugin.login([],
 			fbLoginSuccess,
 			function (error) { alert("" + error) }
 		);
@@ -37,8 +37,10 @@ function onDeviceReady(){
 
 
 if (navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry|IEMobile)/)) {
+  alert("n");
   document.addEventListener("deviceready", onDeviceReady, false);
 } else {
+	alert("s");
   onDeviceReady(); //this is the browser
 }
 
