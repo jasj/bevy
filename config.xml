@@ -26,10 +26,7 @@
 	<preference name="DisallowOverscroll" value="true" />
 	<preference name="EnableViewportScale" value="true" />
 
- <plugin name="com.phonegap.plugins.facebookconnect" spec="0.4.0"  source="pgb" >
-        <param name="APP_ID" value="1522117891429463" />
-        <param name="APP_NAME" value="Broup" />
-  </gap:plugin>
+
   
   <plugin name="org.wbt11a.canvas2imageplugin" spec="0.7.1" source="pgb" />
   <plugin name="com.brodysoft.sqliteplugin" spec="1.0.6" source="pgb" />
