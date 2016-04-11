@@ -34,9 +34,9 @@
   <plugin name="org.wbt11a.canvas2imageplugin" spec="0.7.1" source="pgb" />
   <plugin name="com.brodysoft.sqliteplugin" spec="1.0.6" source="pgb" />
   
-<gap:plugin name="org.apache.cordova.device" version="0.2.12" />
+<gap:plugin name="org.apache.cordova.device" />
 
-<gap:plugin name="nl.x-services.plugins.toast" version="2.0.2" />
+<gap:plugin name="nl.x-services.plugins.toast"  />
 
 <gap:plugin name="org.apache.cordova.device-orientation" version="0.3.9" />
 
@@ -49,7 +49,7 @@
 
 <gap:plugin name="org.apache.cordova.inappbrowser" source="npm"/>
 
-<gap:plugin name="com.phonegap.plugins.pushplugin" version="2.4.0" />
+<gap:plugin name="com.phonegap.plugins.pushplugin"  />
 <gap:plugin name="org.apache.cordova.network-information" version="0.2.12" />
 
 <gap:plugin name="org.apache.cordova.splashscreen" version="0.3.4" />
