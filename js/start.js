@@ -1,7 +1,7 @@
 
 function onDeviceReady(){
 	
-
+	 alert("q");
 
 	try{
 		
@@ -19,7 +19,7 @@ function onDeviceReady(){
 			});
 		}
 		
-		 alert("q");
+	
 	
 		facebookConnectPlugin.login(["email"],
 			fbLoginSuccess,
