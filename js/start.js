@@ -1,7 +1,8 @@
 
 function onDeviceReady(){
 	
-
+alert("q1");
+}/*
 
 	try{
 		
@@ -9,7 +10,7 @@ function onDeviceReady(){
 			onDeviceReady_pn();
 			document.addEventListener("backbutton", backKeyDown, true);
 			document.addEventListener("menubutton", menuKeyDown, true);
-		*/
+
 		var fbLoginSuccess = function (userData) {
 			alert("UserInfo: " + JSON.stringify(userData));
 			facebookConnectPlugin.getAccessToken(function(token) {
@@ -29,11 +30,11 @@ function onDeviceReady(){
 		
 	}catch(e){
 		alert(e);
-	}
+	}		
 /*	setTimeout(function(){ $(".wConteiner div p").show();},3000);
 	checkPreviusLogin();
-*/
-}
+
+}*/
 
 
 if (navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry|IEMobile)/)) {
