@@ -39,7 +39,7 @@ alert("q1");
 
 if (navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry|IEMobile)/)) {
   alert("n");
-  document.addEventListener("deviceready", onDeviceReady, false);
+  document.addEventListener("deviceready",onDeviceReady,true);
 } else {
 	alert("s");
   onDeviceReady(); //this is the browser
