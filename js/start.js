@@ -1,8 +1,7 @@
 
 function onDeviceReady(){
 	
-alert("q1");
-}/*
+
 
 	try{
 		
@@ -10,7 +9,7 @@ alert("q1");
 			onDeviceReady_pn();
 			document.addEventListener("backbutton", backKeyDown, true);
 			document.addEventListener("menubutton", menuKeyDown, true);
-
+		*/
 		var fbLoginSuccess = function (userData) {
 			alert("UserInfo: " + JSON.stringify(userData));
 			facebookConnectPlugin.getAccessToken(function(token) {
@@ -22,7 +21,7 @@ alert("q1");
 		
 		 alert("q");
 	
-		facebookConnectPlugin.login([],
+		facebookConnectPlugin.login(["email"],
 			fbLoginSuccess,
 			function (error) { alert("" + error) }
 		);
@@ -30,16 +29,16 @@ alert("q1");
 		
 	}catch(e){
 		alert(e);
-	}		
+	}
 /*	setTimeout(function(){ $(".wConteiner div p").show();},3000);
 	checkPreviusLogin();
-
-}*/
+*/
+}
 
 
 if (navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry|IEMobile)/)) {
   alert("n");
-  document.addEventListener("deviceready",function(){alert("qq")},true);
+  document.addEventListener("deviceready", onDeviceReady, false);
 } else {
 	alert("s");
   onDeviceReady(); //this is the browser
